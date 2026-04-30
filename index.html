@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Path — Developer Education Platform</title>
-  <meta name="description" content="Three hands-on learning tracks for developers — Linux, Python, and security — built to teach how systems actually work.">
+  <title>/dev/grimoire — Developer Education Platform</title>
+  <meta name="description" content="/dev/grimoire — three hands-on learning tracks for developers who want to understand how their systems actually work.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300..900;1,14..32,300..900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -482,18 +482,31 @@
       .track-card { padding: 32px 24px 28px; }
       .footer-tracks { display: none; }
     }
+
+    /* ── Logo wordmark ─────────────────────────── */
+    .logo-dev {
+      color: var(--text-3);
+      font-weight: 400;
+    }
+    .logo-name {
+      color: var(--text);
+      font-weight: 600;
+    }
+    .footer-logo .logo-name {
+      color: var(--text-3);
+    }
   </style>
 </head>
 <body>
 
   <!-- Nav -->
   <nav>
-    <a href="/" class="nav-logo">Path</a>
+    <a href="/" class="nav-logo"><span class="logo-dev">/dev/</span><span class="logo-name">grimoire</span></a>
     <div class="nav-tracks">
       <span class="nav-dot l"></span>
       <span class="nav-dot p"></span>
       <span class="nav-dot s"></span>
-      &nbsp;three tracks
+&nbsp;three tracks
     </div>
   </nav>
 
@@ -503,7 +516,7 @@
       <div class="hero-inner">
 
         <div class="hero-left">
-          <p class="hero-eyebrow">// developer education platform</p>
+          <p class="hero-eyebrow">// /dev/grimoire</p>
           <h1>
             Foundations,<br>
             <span class="dim">built by doing.</span>
@@ -536,10 +549,10 @@
             <span class="tree-dot"></span>
             <span class="tree-dot"></span>
             <span class="tree-dot"></span>
-            <span class="tree-title">~/path/tracks</span>
+            <span class="tree-title">/dev/grimoire</span>
           </div>
           <div class="hero-tree-body">
-            <div class="tree-root">path/</div>
+            <div class="tree-root">/dev/grimoire/</div>
             <div class="tree-entry">
               <span class="tree-branch">├──</span>
               <span class="tree-name l">linux-path/</span>
@@ -687,7 +700,7 @@
   <footer>
     <div class="container">
       <div class="footer-inner">
-        <span class="footer-logo">Path</span>
+        <span class="footer-logo"><span class="logo-dev">/dev/</span><span class="logo-name">grimoire</span></span>
         <div class="footer-tracks">
           <span>Linux Path</span>
           <span class="footer-sep">&nbsp;·&nbsp;</span>
